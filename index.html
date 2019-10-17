@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HTML+JS</title>
+  </head>
+  <body class="container">
+    <h1 class="jumbotron text-info">Forms and JS</h1>
+
+
+
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name"  placeholder="Enter name" >
+
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="Enter address" >
+      </div>
+
+    </form>
+
+      <button class="btn btn-info btn-lg" type="submit" id="submit"> Submit </button>
+
+
+      <h1 class="jumbotron text-warning mt-5" > Employee Performance Asessment </h1>
+
+      <form class="bg-warning font-weight-bolder">
+        <div class="form-group">
+          <label for="ename">Employee Name</label>
+          <input type="text" class="form-control" id="ename"  placeholder="Enter employee name" >
+
+        </div>
+
+        <div class="form-group">
+          <label for="projectA">ProjectA performance %</label>
+          <input type="text" class="form-control" id="projectA" min="1" max="100" placeholder="Enter percentage of ProjectA" >
+        </div>
+
+        <div class="form-group">
+          <label for="projectB">ProjectB performance %</label>
+          <input type="text" class="form-control" id="projectB"  min="1" max="100" placeholder="Enter percentage of ProjectB" >
+        </div>
+
+        <div class="form-group">
+          <label for="projectC">ProjectC performance %</label>
+          <input type="text" class="form-control" id="projectC" min="1" max="100" placeholder="Enter percentage of ProjectC" >
+        </div>
+
+        <div class="form-group">
+          <label for="average"> Average performance %</label>
+          <input type="text" class="form-control" id="average" min="1" max="100" placeholder="Average performance %" >
+        </div>
+
+      </form>
+
+          <button class="btn btn-warning btn-lg font-weight-bolder" type="submit" id="saveEmployeeDetails"> Save Employee Details </button>
+
+            <button class="btn btn-warning btn-lg font-weight-bolder" type="submit" id="enterEmployeeDetails"> Enter Another Employee Details </button>
+      <h2 id="formData" class="myColor" id="result">
+
+      </h2>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"> </script>
+  </body>
+</html>
